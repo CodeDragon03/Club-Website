@@ -10,13 +10,13 @@ const menuIconStyle = {
 const menuItemStyle = {
   color: "#8C38F7",
   fontSize: "1.2rem",
-  padding: "1rem 8rem 3rem 3rem",
+  padding: "3rem 9rem 4rem 4rem",
   textTransform: "uppercase",
   "&:hover": {
     color: "#fff",
     backgroundColor: "#8C38F7",
     textTransform: "uppercase",
-    transform: "scale(1.3)",
+    transform: "scale(1.1)",
   },
 };
 

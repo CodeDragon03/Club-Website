@@ -1,13 +1,14 @@
 import { Container } from "@mui/material";
 import Footer from "../../../ui/footer";
 import Header from "../../../ui/header";
+import Form from "../../../components/form";
 
 const contact = () => {
   return (
     <>
       <Container maxWidth="lg">
         <Header />
-        <h1>Contacts Page</h1>
+        <Form />
         <Footer />
       </Container>
     </>

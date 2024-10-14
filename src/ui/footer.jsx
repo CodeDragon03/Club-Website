@@ -37,7 +37,7 @@ const listItemStyle = {
 const footer = () => {
   return (
     <>
-      <Box sx={{ flexGrow: 1, padding: "4.8rem 0" }}>
+      <Box sx={{ flexGrow: 1, padding: "1.8rem 0", overflowY: "hidden" }}>
         <Grid container spacing={3}>
           <Grid style={logoBoxStyle} textAlign={"center"} size="grow">
             <div>
@@ -59,11 +59,7 @@ const footer = () => {
               >
                 Join Us
               </ListItemButton>
-              <ListItemButton
-                style={listItemStyle}
-                component="a"
-                href="#simple-list"
-              >
+              <ListItemButton style={listItemStyle} component="a" to="/contact">
                 Feedback
               </ListItemButton>
               <ListItemButton
@@ -82,7 +78,7 @@ const footer = () => {
                 <ListItemButton
                   style={listItemStyle}
                   component="a"
-                  href="mailto:vitbhopalcyberwarriors@gmail.com"
+                  href="mailto:cwc@vitbhopal.ac.in"
                 >
                   Email
                 </ListItemButton>
